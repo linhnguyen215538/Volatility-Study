@@ -20,13 +20,13 @@ Schedule the task to run daily using Task Scheduler <br/>
 
 1. Create list of about 30 stocks ranging from high to low beta. Include the major ETFs such as SPY, DIA, QQQ, GLD in the list
 2. Automatically pull spot and option prices (bid price) middle of the trading day using Selenium package
-3. Calculate using Newton method and plot implied vol (ImpVol) of options in each stock for strike prices ranging [stock price-20% - stock price+20%] using NumPy, Pandas, Matplotlib. Should see the “smile” for each stock
-Use the Put code for strikes < spot price, and Call code for strikes > spot price, then join the two
-4. Calculate smile numbers:
-o Incremental Slope (ISp): change in ImpVol between consecutive strike prices
-o Calculate average up-slope: Average [ISp(strike price>stock price)]
-o Calculate average down-slope: Average [ISp(strike price<stock price)]
-o Calculate Convexity: Average [Delta ISp] (from lowest strike to highest strike)
+3. Calculate using Newton method and plot implied vol (ImpVol) of options in each stock for strike prices ranging [stock price-20% - stock price+20%] using NumPy, Pandas, Matplotlib. Should see the “smile” for each stock. <br/>
+Use the code for Put options for strikes < spot price, and code for Call options for strikes > spot price, then join the two.<br/>
+4. Calculate smile numbers: <br/>
+o Incremental Slope (ISp): change in ImpVol between consecutive strike prices <br/>
+o Calculate average up-slope: Average [ISp(strike price>stock price)]<br/>
+o Calculate average down-slope: Average [ISp(strike price<stock price)]<br/>
+o Calculate Convexity: Average [Delta ISp] (from lowest strike to highest strike)<br/>
 5. Output the data, calculations, and charts into Excel
 6. Plot each of the smile numbers above for the whole set of stock in order of increasing beta
 7. Repeat steps 2 – 5 with closing option prices
