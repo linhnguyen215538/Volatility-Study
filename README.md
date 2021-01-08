@@ -65,4 +65,5 @@ Major equity ETFs such as SPY, DIA, QQQ, IWM<br/>
 Commodities ETFs such as GLD, SLV, USO, BNO, USL<br/>
 Bond ETFs of different maturities such as TLT, IEI, SHY
 
-### *Note: Data and dates in this project was last updated August 14, 2020. Update dates and URLs for accurate numbers and calculations
+### *Note: 
+Data and dates in this project was last updated August 14, 2020. Update dates and URLs for accurate numbers and calculations
