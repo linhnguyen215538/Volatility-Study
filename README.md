@@ -51,18 +51,18 @@ CorA=corr(|rt|,|rt+d|): correlation of absolute return (|rt|)at day t and absolu
 
 Calculate: CorN and CorA values of SPY, IWM, DIA, TLT, and GLD for d=(2, 3, 5, 10, 15, 20, 25, 30) [Use 5 years of history]<br/>
 Plot CorN and CorA vs days d<br/>
-Build a future vol indicator: use the autocorrelations observed in the absolute return data to see if there is a correlation between observed vol over the previous d days and vol over the next d days<br/>
+Build a future vol indicator: use the autocorrelations observed in the absolute return data to see if there is a correlation between observed returns over the previous d days and returns over the next d days<br/>
 
 Utilizing same ETF list, close prices, and d days:<br/>
 Define:<br/>
 Sdf(d1)=standard deviation(|r1|,|r2|,…,|rd|)<br/>
 Sdf(d2)=standard deviation(|r(d+1)|,|r(d+2)|,…,|r(2d)|)<br/>
 Calculate: CorF=Correlation(Sdf(d1),Sdf(d2)), linear <br/>
-Plot: CorF vs d for each ETF <br/>
+Plot: CorF vs d for each ETF to see if there is a correlation between observed vol over the previous d days and vol over the next d days<br/>
 
 Run for:<br/>
 Major equity ETFs such as SPY, DIA, QQQ, IWM<br/>
 Commodities ETFs such as GLD, SLV, USO, BNO, USL<br/>
 Bond ETFs of different maturities such as TLT, IEI, SHY
 
-*Note: Data and dates in this project was last updated August 14, 2020. Update dates and URLs for accurate numbers and calculations
+### *Note: Data and dates in this project was last updated August 14, 2020. Update dates and URLs for accurate numbers and calculations
