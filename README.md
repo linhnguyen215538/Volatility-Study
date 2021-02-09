@@ -9,9 +9,10 @@
 
 ### Prep: Data collection:
 
-Write Python web crawler to automatically collect daily CBOE VIX futures data from the following sites:<br/>
+Write Python web crawler to automatically collect daily CBOE VIX index term structure data from the following sites:<br/>
 http://www.cboe.com/trading-tools/strategy-planning-tools/term-structure-data#3 <br/>
 Save data in CBOE VIX.csv file<br/>
+Pull VIX futures market data from: 
 http://www.cboe.com/products/futures/vx-cboe-volatility-index-vix-futures <br/>
 Save data in CBOE VIX futures.csv file<br/>
 Schedule the task to run daily using Task Scheduler <br/>
